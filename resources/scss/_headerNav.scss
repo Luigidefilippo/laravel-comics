@@ -1,0 +1,23 @@
+@use './variables' as*;
+
+
+header {
+    font-size: 1.1rem;
+}
+.top {
+    background-color: #0282F9;
+    color: white;
+}
+.nav-item:hover{
+    border-bottom: 5px solid #0282F9;
+}
+
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/jumbotron.jpg') ;
+}
+.btn-outline{
+    background-color: #0282F9;
+}

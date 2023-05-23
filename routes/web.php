@@ -45,6 +45,17 @@ Route::get('/fans', function () {
     return view('fans');
 });
 
+Route::get('/movies', function () {
+    return view('Movies');
+});
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+Route::get('/collectibles', function () {
+    return view('collectibles');
+});
 
 
 
