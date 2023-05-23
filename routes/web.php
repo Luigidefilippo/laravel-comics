@@ -14,5 +14,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('comics');
 });
+
+Route::get('/comics', function () {
+    return view('comics');
+});
+
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+Route::get('/movie', function () {
+    return view('movie');
+});
+
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/fans', function () {
+    return view('fans');
+});
+
+
+
+
+
