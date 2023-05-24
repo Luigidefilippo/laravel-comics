@@ -14,11 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('comics');
+    $db = config('db');
+    return view('comics', compact('db'));
 });
 
 Route::get('/comics', function () {
-    return view('comics');
+    $db = config('db');
+    return view('comics', compact('db'));
 });
 
 Route::get('/characters', function () {
@@ -56,6 +58,7 @@ Route::get('/games', function () {
 Route::get('/collectibles', function () {
     return view('collectibles');
 });
+
 
 
 
